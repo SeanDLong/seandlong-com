@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} · {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}, PhD</a>
+  </header>
+
+  <nav class="nav-row">
+    <a href="{{ '/voting-rights/' | relative_url }}">Voting Rights</a>
+    <a href="{{ '/extremism-research/' | relative_url }}">Counter-Extremism</a>
+    <a href="{{ '/teaching-experience/' | relative_url }}">Teaching</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/curriculum-vitae/' | relative_url }}">CV</a>
+    <a href="{{ '/about-me/' | relative_url }}">About Me</a>
+  </nav>
+
+  <main class="page-content{% if page.wide %} page-content--wide{% endif %}">
+    {{ content }}
+  </main>
+
+  {% include contact.html %}
+
+  <div id="map-modal" class="map-modal">
+    <button type="button" class="map-modal-close" aria-label="Close">&times;</button>
+    <iframe id="map-modal-iframe" src=""></iframe>
+  </div>
+
+  <script src="{{ '/assets/js/map-modal.js' | relative_url }}"></script>
+</body>
+</html>
