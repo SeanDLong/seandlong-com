@@ -13,7 +13,7 @@ wide: true
 <div class="bio-block">
   <div class="bio-text">
     <p>I have worked as a research analyst with Collingwood Research for several years, where I conduct research on voting demographics and the redistricting process. This work builds on my <a href="{{ '/efficacy-of-the-cvra/' | relative_url }}">academic interest</a> and work with <a href="http://polisci.unm.edu/people/faculty/profile/loren-collingwood.html">Loren Collingwood</a> in studying local politics and election disparities. In addition to providing support for VRA-related litigation, we have also built maps for multiple redistricting cycles, notably <a href="https://www.collingwoodresearch.info/general-6">West Contra Costa School District</a> and the <a href="https://www.collingwoodresearch.info/risd">Roswell Independent School District</a>.</p>
-    <p>Here is an <a href="https://seandlong.github.io/plan%204v1%20CVAP.html">example of a map</a> we built for WCCSD, and <a href="https://seandlong.github.io/co1_final.html">another</a> for RISD.</p>
+    <p>These maps served as our deliverables for both projects, respectively. Each of these allowed clients to easily examine the proposed districts' demographics and boundaries. We have used this basic leaflet template for various projects as they have proven to be accessible and effective visualizations throughout our redistricting work.</p>
   </div>
   <div class="map-embeds">
     <div class="map-trigger" data-src="https://seandlong.github.io/plan%204v1%20CVAP.html">
